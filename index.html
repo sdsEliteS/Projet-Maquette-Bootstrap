@@ -24,6 +24,7 @@
 <!-- Manipulation Navbar -->
 
 <body>
+
     <header class="bdr-b-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top bdr-b-dark">
             <div class="container text-center">
@@ -56,7 +57,6 @@
         </div>
     </header>
 
-    
     <!-- Manipulation Section Famllle de Ballon  -->
 
     <!-- bootstrap class pr-3 = padding right = rembourrage droit de niveau 3 -->
@@ -71,21 +71,21 @@
         <!-- bootstrap class mt-5 = class margin top 5 = margin haut de niveau 5 -->
         <div class="row ">
             <div class="col-md-4">
-                <div class="vente-details bdr-r-dark ">
+                <div class="vente-details bdr-r-dark">
                     <img class="w-auto" height="250px" src="ressources/image/BallonL1.jpg">
                     <h4 class="soccer-ligue1 mt-4"> Ballon - Ligue 1</h4>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="vente-details ">
+                <div class="vente-details bdr-r-dark">
                     <img class="w-auto" height="250px" src="ressources/image/BallonL2.jpg">
                     <h4 class="soccer-ligue2 mt-4">Ballon - Ligue 2</h4>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="vente-details bdr-l-dark ">
+                <div class="vente-details bdr-r-dark">
                     <img class="w-auto" height="250px" src="ressources/image/BallonLDC.jpg">
                     <h4 class="soccer-ldc mt-4">Ballon - Ligue des champions</h4>
                 </div>
@@ -94,13 +94,11 @@
 
     </section>
 
-
     <!-- Manipulation Bannière Poudre Or -->
 
     <div class="bannière bdr-b-dark">
         <img src="ressources/image/Bannière4.jpg" class="w-100" alt="ma super bannière à taille variable" />
     </div>
-
 
     <!-- Manipulation Formulaire de Contact Client -->
 
@@ -128,50 +126,46 @@
                 <!-- mt-5 = margin top = marge haut de niveau 5 opèrant des espacements sur la hauteur -->
                 <div class="phone mt-5 text-center">
                     <!-- mr-3 = margin right = marge droite de niveau 3 afin de séparer l'icon et l'écris sur la largeur -->
-                    <p><i class="fas fa-phone mr-3 btn-1"></i>Téléphone : <br /><br /> 06.61.53.87.21</p>
+                    <p><i class="fas fa-phone mr-3 btn-1"></i><u>Téléphone : <br /><br /></u> 06.61.53.87.21</p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="adress mt-5 text-center">
-                    <p><i class="fas fa-map-marker-alt mr-3 btn-2"></i>Adresse : <br /><br /> Place de la République 72000 Le Mans</p>
+                    <p><i class="fas fa-map-marker-alt mr-3 btn-2"></i><u>Adresse : <br /><br /></u> Place de la République 72000 Le Mans</p>
                 </div>
             </div>
         </div>
 
 
         <!-- Formulaire de Contact pour le Client (Nom + Email) -->
-
         <form class="row">
             <div class="col-md-6">
-                <div class="contact-form">
-                    <label>Nom: </label>
-                    <input type="text" id="name" class="w-100" />
+                <div class="contact-form input-group flex-nowrap mt-3">
+                    <span class="input-group-text" id="addon-wrapping">Nom</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
                 </div>
             </div>
 
             <div class="col-md-6">
-                <div class="contact-form">
-                    <label>Email: </label>
-                    <input type="email" id="email" class="w-100" placeholder="Ajouter votre email" />
+                <div class="contact-form input-group flex-nowrap mt-3">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Ajouter un email" aria-label="Username" aria-describedby="addon-wrapping">
                 </div>
             </div>
 
-
             <!-- Service Client -->
-            <div class="col-md-12">
-                <div>
-                    <label>Séléctionner le service</label>
-                    <select>
-                        <option>Service client</option>
-                        <option>Service Comptable</option>
-                        <option>SAV</option>
-                    </select>
-                </div>
+            <div class="col-md-12 d-flex justify-content-center mt-3">
+                <span class="input-group-text" id="addon-wrapping">Selectionner le service</span>
+                <select>
+                    <option>Service client</option>
+                    <option>Service Comptable</option>
+                    <option>SAV</option>
+                </select>
             </div>
 
             <!-- Message du Client -->
             <div class="col-md-12">
-                <div class="contact-form mt-4">
+                <div class="contact-form mb-4 mt-4">
                     <label>Votre message: </label>
                     <textarea id="message" rows="9" class="contact-message"></textarea>
                 </div>
@@ -179,20 +173,18 @@
 
             <!-- Envoyer Button -->
             <div class="col-md-12">
-                <div class="contact-form text-center">
+                <div class="contact-form text-center mb-5">
                     <button class="btn-or">Envoyer</button>
                 </div>
             </div>
 
         </form>
-
-
     </section>
 
 
     <!-- Manipulation du Footer -->
 
-    <footer>
+    <footer class="container-fluid">
         <div class="copyright">
             <p>Elite S Compagny 2.0 - Edition Maquette 2021.</p>
             <ul>

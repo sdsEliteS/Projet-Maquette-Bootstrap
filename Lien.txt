@@ -34,3 +34,8 @@ https://getbootstrap.com/docs/5.0/layout/containers/
 flex avec bootstrap (ALignement et Positionnement)
 
 https://getbootstrap.com/docs/5.0/utilities/flex/
+
+
+input
+
+https://getbootstrap.com/docs/5.0/forms/input-group/
