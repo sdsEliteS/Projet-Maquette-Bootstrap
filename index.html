@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elite S Compagny</title>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+
+        <!--Link Font Awesome pour les icons -->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Link Google fonts Police d'écriture Zen Dots -->
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+        <!-- Link Bootstrap 4.6 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <!-- Link Connexion avec la page CSS -->
+        <link rel=stylesheet href="ressources/css/style.css">
+    </head>
+
+
+    <body>
+        <header class="bdr-b-dark">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top bdr-b-dark">
+            <div class="container text-center">
+                <a class="navbar-brand" href="/">Boutique de ballon de football</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#monMenu"
+                        aria-controls="monMenu"
+                        aria-label="Menu pour mobile">
+ 
+           
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="/">Qui sommes-nous</a>
+                        <a class="nav-item nav-link" href="#Vente-de-ballons">Vente de ballons</a>
+                        <a class="nav-item nav-link" href="#Contactez-nous">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                     <!-- class w-auto dimensionnement opère une découpe sur la hauteur et la largeur de l'image haider 
+                        afin que les barres de défilements disparaissent -->
+                    <div class="col-md-12 home-title w-auto">
+                        <h1>Elite S Compagny</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Manipulation Section Famllle de Ballon  -->
+
+            <!-- bootstrap class pr-3 = padding right = rembourrage droit de niveau 3 -->
+        <section id="Vente-de-ballons">
+            <div class="container-grid justifyitemsstretch pr-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>vente de ballons</h2>
+                    </div>
+                </div>
+                
+                <!-- bootstrap class mt-4 = class margin top 4 = margin haut de niveau 4 -->
+                <!-- bootstrap class mt-5 = class margin top 5 = margin haut de niveau 5 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="vente-details bdr-r-dark justifyselfstart">
+                            <img class="w-auto" height="450px" src="ressources/image/BallonL1.jpg">
+                            <h4 class="soccer-ligue1 mt-4"> Ballon - Ligue 1</h4>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="vente-details justifyselfcenter">
+                            <img class="w-auto" height="450px" src="ressources/image/BallonL2.jpg">
+                            <h4 class="soccer-ligue2 mt-4">Ballon - Ligue 2</h4>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="vente-details bdr-l-dark justifyselfend">
+                            <img class="w-auto" height="450px" src="ressources/image/BallonLDC.jpg">
+                            <h4 class="soccer-ldc mt-4">Ballon - Ligue des champions</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Manipulation Bannière Poudre Or -->
+
+        <div class="bannière">
+            <img src="ressources/image/Bannière4.jpg" class="w-100" alt="ma super bannière à taille variable"/>
+        </div>
+       
+
+        <!-- Manipulation Formulaire de Contact Client -->
+
+        <section id="Contactez-nous">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="paragraphe-formulaire">
+                                    <h2>Contactez-nous</h2>
+                                    <p class="mt-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+                                    pellentesque eu, pretium quis,Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- mt-5 = margin top = marge haut de niveau 5 opèrant des espacements sur la hauteur -->
+                                <div class="phone mt-5">
+                                <!-- mr-3 = margin right = marge droite de niveau 3 afin de séparer l'icon et l'écris sur la largeur -->
+                                <p><i class="fas fa-phone mr-3 btn-1"></i>Téléphone : 06.61.53.87.21</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="adress mt-5">
+                                <p><i class="fas fa-map-marker-alt mr-3 btn-2"></i>Adresse : Place de la République 72000 Le Mans</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    <!-- Formulaire de Contact pour le Client (Nom + Email) -->
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Nom: </label>
+                                    <input type="text" id="name" style="width: 450px" />
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Email: </label>
+                                    <input type="email" id="email" placeholder="Ajouter votre email" style="width: 450px" />
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <!-- Service Client -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <label>Séléctionner le service</label>
+                                        <select>
+                                            <option>Service client</option>
+                                            <option>Service Comptable</option>
+                                            <option>SAV</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        <!-- Message du Client -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form mt-4">
+                                    <label>Votre message: </label>
+                                    <textarea id="message"  rows="9" class="contact-message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Envoyer Button -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form text-center">
+                                    <button class="btn-or">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </form> 
+                </div>
+
+
+        <!-- Manipulation du Footer -->
+
+        <footer>
+            <div class="copyright">
+                <p>Elite S Compagny 2.0 - Edition Maquette 2021.</p>
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+        </footer>
+
+
+        <!-- Mettre le link de JS qui est dans la documentation de Bootstrap 4.6 afin de pouvoir fabriquer la Navbar -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,33 @@
+Footer
+
+https://mdbootstrap.com/docs/standard/navigation/footer/
+
+
+Espacement (Margin et Padding)
+
+https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_util_mt-responsive&stacked=h
+https://getbootstrap.com/docs/4.0/utilities/spacing/
+
+
+Bannière
+
+https://stock.adobe.com/bg/search?k=yellow%20and%20blue%20design
+https://www.aidoweb.com/tutoriaux/une-banniere-taille-variable-318
+
+
+Contour d'écriture
+
+https://openclassrooms.com/forum/sujet/quelle-class-pour-changer-couleur-lettres-navbar
+http://je-tripote-au-lycee.blogg.org/css-une-bordure-autour-des-lettres-a128433790
+
+
+Agrandir le champ du formulaire 
+
+https://openclassrooms.com/forum/sujet/agrandir-champs-formulaire-css-33677
+
+
+Aligner et espacer les éléments de grille
+
+https://www.pierre-giraud.com/html-css-apprendre-coder-cours/aligner-espacer-elements-grille/
+
+
