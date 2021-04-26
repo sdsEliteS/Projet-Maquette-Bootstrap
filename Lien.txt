@@ -26,8 +26,11 @@ Agrandir le champ du formulaire
 https://openclassrooms.com/forum/sujet/agrandir-champs-formulaire-css-33677
 
 
-Aligner et espacer les éléments de grille
+container et responsive avec bootstrap (xxl-xl-md-sm)
 
-https://www.pierre-giraud.com/html-css-apprendre-coder-cours/aligner-espacer-elements-grille/
+https://getbootstrap.com/docs/5.0/layout/containers/
 
 
+flex avec bootstrap (ALignement et Positionnement)
+
+https://getbootstrap.com/docs/5.0/utilities/flex/
